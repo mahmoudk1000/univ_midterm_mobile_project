@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CounterActivity"
+    android:background="@color/dark_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/accent"
+        android:textSize="160sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/show_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/background"
+        android:onClick="print_toast"
+        android:text="@string/toast_text"
+        android:textColor="@color/foreground"
+        app:layout_constraintTop_toBottomOf="@+id/show_count"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/reset_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/background"
+            android:onClick="reset_count"
+            android:text="@string/reset_text"
+            android:textColor="@color/foreground" />
+
+        <Button
+            android:id="@+id/raise_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/background"
+            android:onClick="raise_clicked"
+            android:text="@string/count_text"
+            android:textColor="@color/accent" />
+    </LinearLayout>
+</LinearLayout>
