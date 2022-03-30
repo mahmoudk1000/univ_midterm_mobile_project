@@ -4,9 +4,7 @@
 Vier Apps is just simple four apps combined tougher for Android. It makes life easier. You can count, get random value, have a stop watch and get to know the date, awesome huh, :|
 
 ## Overview
-![Woah](https://github.com/Mahmoudk1000/univ_midterm_mobile_project/blob/master/.screenshot/main.png)
-![Duh](https://github.com/Mahmoudk1000/univ_midterm_mobile_project/blob/master/.screenshot/counter.png)
-![UwU](https://github.com/Mahmoudk1000/univ_midterm_mobile_project/blob/master/.screenshot/random.png)
+![Woah](https://github.com/Mahmoudk1000/univ_midterm_mobile_project/blob/master/.screenshot/vier-apps.png)
 
 ## Download
 Go to release section for download
