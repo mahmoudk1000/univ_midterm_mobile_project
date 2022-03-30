@@ -8,4 +8,7 @@
     <string name="count_text">Count</string>
     <string name="reset_text">Reset</string>
     <string name="toast_value">Raised One!</string>
+    <string name="get_random">Get Number</string>
+    <string name="min_num">Enter Minimum</string>
+    <string name="max_num">Enter Maximize</string>
 </resources>
