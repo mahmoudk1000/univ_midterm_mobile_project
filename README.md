@@ -1,0 +1,29 @@
+# Mobile section midterm project, Alexandria University: (SIM)
+
+## Vier Apps
+Vier Apps is just simple four apps combined tougher for Android. It makes life easier. You can count, get random value, have a stop watch and get to know the date, awesome huh, :|
+
+## Overview
+![Woah](https://github.com/Mahmoudk1000/univ_midterm_mobile_project/blob/master/.screenshot/main.png)
+![Duh](https://github.com/Mahmoudk1000/univ_midterm_mobile_project/blob/master/.screenshot/counter.png)
+![UwU](https://github.com/Mahmoudk1000/univ_midterm_mobile_project/blob/master/.screenshot/random.png)
+
+## Download
+Go to release section for download
+
+## License
+```
+Copyright 2021-present Mahmoud Asran and Alexandria University
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
