@@ -11,4 +11,10 @@
     <string name="get_random">Get Number</string>
     <string name="min_num">Enter Minimum</string>
     <string name="max_num">Enter Maximize</string>
+    <string name="count_down">Count Down</string>
+    <string name="birthday">Birthday!</string>
+    <string name="day_date">Day</string>
+    <string name="month_value">Month</string>
+    <string name="year_value">Year</string>
+    <string name="life">You Have Lived For!</string>
 </resources>

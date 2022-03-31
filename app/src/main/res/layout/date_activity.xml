@@ -1,6 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".RandomActivity"
+    android:background="@color/dark_background"
+    android:orientation="vertical" >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/year_date"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/year_value"
+            android:textAlignment="center"
+            android:background="@drawable/rounded_corners"
+            android:textColor="@color/foreground"
+            android:textColorHint="@color/light_foreground"
+            android:inputType="number"
+            android:autofillHints="100" />
+
+        <EditText
+            android:id="@+id/month_date"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/month_value"
+            android:textAlignment="center"
+            android:background="@drawable/rounded_corners"
+            android:textColor="@color/foreground"
+            android:textColorHint="@color/light_foreground"
+            android:inputType="number"
+            android:autofillHints="100" />
+
+        <EditText
+            android:id="@+id/day_date"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:hint="@string/day_date"
+            android:textAlignment="center"
+            android:background="@drawable/rounded_corners"
+            android:textColorHint="@color/light_foreground"
+            android:textColor="@color/foreground"
+            android:inputType="number"
+            android:autofillHints="0" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/brithday_message"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/background"
+        android:text="@string/life"
+        android:textColor="@color/foreground"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:onClick="random_create"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/show_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="1999"
+            android:textAlignment="center"
+            android:textColor="@color/accent"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/show_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="18"
+            android:textAlignment="center"
+            android:textColor="@color/accent"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/show_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="19"
+            android:textAlignment="center"
+            android:textColor="@color/accent"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/random_get"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/background"
+        android:text="@string/birthday"
+        android:textColor="@color/foreground"
+        tools:layout_editor_absoluteX="8dp"
+        android:onClick="random_create"/>
+
+</LinearLayout>
