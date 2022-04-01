@@ -19,24 +19,28 @@
             </intent-filter>
         </activity>
         <activity android:name=".CounterActivity"
+            android:label="@string/counter_app"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity android:name=".RandomActivity"
+            android:label="@string/random_app"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity android:name=".StopActivity"
+            android:label="@string/stop_app"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity android:name=".DateActivity"
+            android:label="@string/date_app"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
