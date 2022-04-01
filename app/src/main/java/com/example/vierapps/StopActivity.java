@@ -21,7 +21,7 @@ public class StopActivity extends AppCompatActivity {
         EditText count_down_value = (EditText) findViewById(R.id.count_down_value);
         String count_down_in_minutes = count_down_value.getText().toString();
         int final_count_down_in_minutes = Integer.parseInt(count_down_in_minutes);
-        
+
         TextView show_count_down = (TextView) findViewById(R.id.show_count_down);
         int milliseconds = final_count_down_in_minutes * 60 * 1000;
 

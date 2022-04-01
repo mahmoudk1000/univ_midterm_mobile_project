@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RandomActivity"
+    tools:context=".DateActivity"
     android:background="@color/dark_background"
     android:orientation="vertical" >
 
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="1999"
+            android:text="YYYY"
             android:textAlignment="center"
             android:textColor="@color/accent"
             android:textSize="50sp"
@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="18"
+            android:text="MM"
             android:textAlignment="center"
             android:textColor="@color/accent"
             android:textSize="50sp"
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="19"
+            android:text="DD"
             android:textAlignment="center"
             android:textColor="@color/accent"
             android:textSize="50sp"
@@ -122,6 +122,6 @@
         android:text="@string/birthday"
         android:textColor="@color/foreground"
         tools:layout_editor_absoluteX="8dp"
-        android:onClick="random_create"/>
+        android:onClick="birthday"/>
 
 </LinearLayout>
