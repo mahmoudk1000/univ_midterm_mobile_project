@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vier Apps</string>
+    <string name="counter_app">عداد</string>
+    <string name="random_app">عشوائي</string>
+    <string name="stop_app">ساعة التوقف</string>
+    <string name="date_app">التاريخ</string>
+    <string name="toast_text">اشعار</string>
+    <string name="count_text">عد</string>
+    <string name="reset_text">اعادة ضبط</string>
+    <string name="toast_value">اضافة واحد</string>
+    <string name="get_random">احصل علي رقم</string>
+    <string name="min_num">اضف القيمة الصغري</string>
+    <string name="max_num">اضف القيمة الكبري</string>
+    <string name="count_down">ميقات</string>
+    <string name="birthday">عيد الميلاد!</string>
+    <string name="day_date">يوم</string>
+    <string name="month_value">شهر</string>
+    <string name="year_value">سنة</string>
+    <string name="life"> انت عشت لمدة!</string>
+    <string name="count_in_minute">عداد الدقايق</string>
+    <string name="time_up">أنتهي الوقت!</string>
+    <string name="reset_countDown">تصفير العداد</string>
+</resources>
