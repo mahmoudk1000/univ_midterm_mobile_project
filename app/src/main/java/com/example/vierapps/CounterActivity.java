@@ -1,40 +1,60 @@
 package com.example.vierapps;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class CounterActivity extends AppCompatActivity {
+    private SharedPreferences mPreferences;
+    private String sharedPrefFile = "com.example.vierapps";
+    private int increment_Counter = 0;
+    private final String COUNT_KEY = "count";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.counter_activity);
+
+        TextView counter = (TextView) findViewById(R.id.show_count);
+        mPreferences = getSharedPreferences(sharedPrefFile, MODE_PRIVATE);
+
+        increment_Counter = mPreferences.getInt(COUNT_KEY, 0);
+        counter.setText(String.format("%s", increment_Counter));
     }
     public void raise_clicked(View view) {
-        // Get the Counter text which would be changed later
         TextView counter = (TextView) findViewById(R.id.show_count);
-        // Increment Counter text
-        int increment_Counter = Integer.parseInt(counter.getText().toString());
         increment_Counter++;
         counter.setText(String.valueOf(increment_Counter));
     }
 
     public void reset_count(View view) {
-        // Get the Counter text which would be changed later
         TextView counter = (TextView) findViewById(R.id.show_count);
-        counter.setText(String.valueOf(0));
+        increment_Counter = 0;
+        counter.setText(String.valueOf(increment_Counter));
+
+        SharedPreferences.Editor preferencesEditor = mPreferences.edit();
+        preferencesEditor.clear();
+        preferencesEditor.apply();
     }
 
     public void print_toast(View view) {
-        // Get the Counter text which would be changed later
         TextView counter = (TextView) findViewById(R.id.show_count);
-        // Displaying Toast message
         Toast
                 .makeText(CounterActivity.this,
                         "Current Value: " + counter.getText(),
                         Toast.LENGTH_SHORT)
                 .show();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        SharedPreferences.Editor preferencesEditor = mPreferences.edit();
+        preferencesEditor.putInt(COUNT_KEY, increment_Counter);
+        preferencesEditor.apply();
     }
 }

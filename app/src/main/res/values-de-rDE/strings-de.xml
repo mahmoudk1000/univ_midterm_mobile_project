@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Vier Apps</string>
+    <string name="counter_app">Schalter</string>
+    <string name="random_app">Zufällig</string>
+    <string name="stop_app">Stoppuhr</string>
+    <string name="date_app">Datum</string>
+    <string name="toast_text">Toast</string>
+    <string name="count_text">Anzahl</string>
+    <string name="reset_text">Zurücksetzen</string>
+    <string name="toast_value">Erhobener!</string>
+    <string name="get_random">Nummer bekommen</string>
+    <string name="min_num">Min eingeben</string>
+    <string name="max_num">Max eingeben</string>
+    <string name="count_down">aufzählen</string>
+    <string name="birthday">Geburtstag!</string>
+    <string name="day_date">Tag</string>
+    <string name="month_value">Monat</string>
+    <string name="year_value">Jahr</string>
+    <string name="life">Du hast gelebt!</string>
+    <string name="count_in_minute">Minuten zählen</string>
+    <string name="time_up">Zeit vorbei!</string>
+    <string name="reset_countDown">Zurücksetzen</string>
+    <string name="battery_broadcast">"Batterie Broadcast"</string>
+    <string name="power_connected">im Akkubetrieb und Hell</string>
+    <string name="power_disconnected">nicht im Akkubetrieb und Dunkel</string>
+</resources>

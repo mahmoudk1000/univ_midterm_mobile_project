@@ -21,4 +21,7 @@
     <string name="count_in_minute">عداد الدقايق</string>
     <string name="time_up">أنتهي الوقت!</string>
     <string name="reset_countDown">تصفير العداد</string>
+    <string name="battery_broadcast">"بث البطارية"</string>
+    <string name="power_connected">موصل وفاتح</string>
+    <string name="power_disconnected">منفصل وغامق</string>
 </resources>

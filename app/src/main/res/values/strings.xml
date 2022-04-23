@@ -20,4 +20,7 @@
     <string name="count_in_minute">Count Minutes</string>
     <string name="time_up">Time Up!</string>
     <string name="reset_countDown">Reset Count</string>
+    <string name="battery_broadcast">"Battery BroadCast"</string>
+    <string name="power_connected">On Power \'n light</string>
+    <string name="power_disconnected">No Power \'n Dark</string>
 </resources>
