@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kfaraj.support:recyclerview:3.0.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b17cbc4f577fe33048621f33bbb7421d/transformed/recyclerview-3.0.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b17cbc4f577fe33048621f33bbb7421d/transformed/recyclerview-3.0.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b17cbc4f577fe33048621f33bbb7421d/transformed/recyclerview-3.0.8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kfaraj.support/recyclerview/3.0.8/f8551853040e92b863d136467dd6e2900403f9ed/recyclerview-3.0.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kfaraj.support/recyclerview/3.0.8/dc5a3c1d6fc544eed1e9acd883a855d5893c157b/recyclerview-3.0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

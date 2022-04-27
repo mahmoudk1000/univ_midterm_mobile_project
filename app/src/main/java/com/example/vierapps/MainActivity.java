@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 public class MainActivity extends AppCompatActivity {
+    // BroadCast
     private CustomReceiver mReceiver = new CustomReceiver();
 
     // String constant that defines the custom broadcast Action.
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         // Define the IntentFilter.
         IntentFilter filter = new IntentFilter();
@@ -67,6 +69,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+
+    // BroatCast Stuff
     /**
      * Click event handler for the button, that sends custom broadcast using the
      * LocalBroadcastManager.
@@ -86,5 +91,10 @@ public class MainActivity extends AppCompatActivity {
         this.unregisterReceiver(mReceiver);
         LocalBroadcastManager.getInstance(this).unregisterReceiver(mReceiver);
         super.onDestroy();
+    }
+
+    public void go_credit(View view) {
+        Intent credit_intent = new Intent(MainActivity.this, CreditActivity.class);
+        startActivity(credit_intent);
     }
 }

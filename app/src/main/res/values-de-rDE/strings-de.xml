@@ -23,4 +23,5 @@
     <string name="battery_broadcast">"Batterie Broadcast"</string>
     <string name="power_connected">im Akkubetrieb und Hell</string>
     <string name="power_disconnected">nicht im Akkubetrieb und Dunkel</string>
+    <string name="credit">Anerkennung</string>
 </resources>

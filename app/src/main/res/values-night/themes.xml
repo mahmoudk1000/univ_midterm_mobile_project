@@ -6,11 +6,11 @@
         <item name="colorPrimaryVariant">@color/background</item>
         <item name="colorOnPrimary">@color/foreground</item>
         <item name="colorOnSurface">@color/dark_background</item>
-        <item name="colorSurface">@color/light_accent</item>
+        <item name="colorSurface">@color/accent</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/light_accent</item>
-        <item name="colorSecondaryVariant">@color/light_accent</item>
-        <item name="colorOnSecondary">@color/light_accent</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/accent</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@color/dark_background</item>
         <item name="android:navigationBarColor">@color/dark_background</item>

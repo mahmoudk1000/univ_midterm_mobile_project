@@ -23,4 +23,5 @@
     <string name="battery_broadcast">"Battery BroadCast"</string>
     <string name="power_connected">On Power \'n light</string>
     <string name="power_disconnected">No Power \'n Dark</string>
+    <string name="credit">Credit</string>
 </resources>

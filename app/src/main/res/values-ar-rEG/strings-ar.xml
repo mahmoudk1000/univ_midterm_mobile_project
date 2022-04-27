@@ -24,4 +24,5 @@
     <string name="battery_broadcast">"بث البطارية"</string>
     <string name="power_connected">موصل وفاتح</string>
     <string name="power_disconnected">منفصل وغامق</string>
+    <string name="credit">تقدير</string>
 </resources>

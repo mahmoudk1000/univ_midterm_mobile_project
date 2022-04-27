@@ -138,4 +138,14 @@
                 android:textStyle="bold|italic" />
         </LinearLayout>
     </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/accent"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/credit"
+        android:onClick="go_credit"
+        android:backgroundTint="@color/background"/>
 </LinearLayout>
